@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:layout_marginLeft="50dp"
+    android:layout_marginRight="50dp"
+    android:background="@color/colorPrimary"
+    tools:context="com.example.user.biscuit.Banana">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:background="#FFFF99"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10dp"
+            android:shadowColor="#00ccff"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="2"
+            android:text="How To Grow Banana Plants And Keep Them Happy."
+            android:textColor="@android:color/holo_green_dark"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/ban1"
+
+                />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/ban2"
+
+                />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/ban3"
+
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/buttonplayer"
+                android:text="PLAY VIDEO"
+                android:layout_gravity="center_horizontal"/>
+
+
+            <com.google.android.youtube.player.YouTubePlayerView
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:id="@+id/youtubeplayer">
+            </com.google.android.youtube.player.YouTubePlayerView>
+
+
+
+
+
+        </LinearLayout>
+
+
+        <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_gravity="center_horizontal"-->
+        <!--android:shadowRadius="2"-->
+        <!--android:shadowDx="1"-->
+        <!--android:shadowDy="1"-->
+        <!--android:layout_marginTop="5dp"-->
+        <!--android:text="Growing bananas does not take much effort, but it does require that you get a few things right when you first get started.\n"-->
+        <!--android:textColor=""-->
+        <!--android:textSize="20dp"-->
+        <!--android:textStyle="italic" />-->
+
+        <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="center_horizontal"-->
+        <!--android:shadowRadius="2"-->
+        <!--android:shadowDx="1"-->
+        <!--android:shadowDy="1"-->
+        <!--android:layout_marginTop="5dp"-->
+        <!--android:textSize="20dp"-->
+        <!--android:textStyle="italic"-->
+        <!--android:text="-> Banana plants can offer many benefits:\n-->
+
+        <!--*They make great windbreaks or screens\n-->
+        <!--*they can keep the sun of the hot western side of your house\n-->
+        <!--*they utilize the water and nutrients in waste drains (think washing water or outdoor shower)\n-->
+        <!--*the leaves can be fed to horses, cows and other grazers\n-->
+        <!--*the dried remains of the trunks can be used for weaving baskets and mats."-->
+        <!--/>-->
+        <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="center_horizontal"-->
+        <!--android:shadowRadius="2"-->
+        <!--android:shadowDx="1"-->
+        <!--android:shadowDy="1"-->
+        <!--android:layout_marginTop="5dp"-->
+        <!--android:textSize="20dp"-->
+        <!--android:textStyle="italic"-->
+        <!--android:text="-> Banana varieties\n-->
+        <!--*Tall Bananas\n-->
+        <!--*Cavendish is the variety that you know from the shops. It's a stout variety that produces large heavy bunches.\n-->
+
+        <!--*Lady Fingers are very tall and slender plants and have sweeter fruit.\n-->
+
+        <!--*Plantains are cooking bananas. They are drier and more starchy. You use them green like you would use potatoes, and they taste similar.\n-->
+
+        <!--(80% of all bananas grown in the world are plantain varieties! They are an important staple food in many tropical countries.)\n-->
+
+        <!--*There are other varieties, but those are the most popular and most commonly grown.\n"-->
+        <!--/>-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="2"
+            android:text="How to get started growing bananas."
+            android:textColor="@android:color/holo_green_dark"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="2"
+            android:text=" **First you need to make sure that you can grow bananas where you are.\n
+
+**You need a tropical or warm subtropical climate.\n
+
+**You need a lot of water to grow bananas.\n
+**You need very rich soil.
+**And you need room so you can plant enough of them together. \n
+
+**You should plant bananas in blocks or clumps, not single rows and definitely not single plants. "
+            android:textSize="20dp"
+            android:textStyle="italic" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="2"
+            android:text="For more details click here"
+            android:textColor="@android:color/holo_green_dark"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center_horizontal"-->
+            <!--android:layout_marginTop="5dp"-->
+            <!--android:shadowDx="1"-->
+            <!--android:shadowDy="1"-->
+            <!--android:shadowRadius="2"-->
+            <!--android:text="-->
+<!--You can not grow bananas from seeds. Banana plants don't produce seeds.-->
+
+<!--The best way is to start with the above mentioned suckers. Know someone who grows bananas? Talk to them. Every banana plant produces a lot more suckers than you need, so people usually have plenty to give away.-->
+
+<!--Only take suckers from vigorous banana plants. The suckers should have small, spear shaped leaves and ideally be about four feet high. (Smaller suckers will take longer to fruit and the first buch will be smaller.)-->
+
+<!--Cut the sucker from the main banana plant with a sharp shovel. Cut downwards between the mature plant and the sucker. You have to cut through the corm. It's not easy...-->
+
+<!--Make sure you get a good chunk of corm and many roots with it. Chop the top off the sucker to reduce evaporation while you move it and while it settles into its new home. (Remember, the growing point is at the bottom of a banana plant. You can decapitate the sucker. It will grow back.)-->
+
+<!--You can also dig up a bit of corm and chop it into bits. Every bit that has an eye can be planted and will grow into a banana plant. But it takes longer than growing banana suckers...-->
+
+<!--Plant your bits or suckers in your well prepared banana patch, keeping two to five metres between them.-->
+
+<!--The spacing depends on your layout. My bananas grow in a block of several double rows. Within the double rows the spacing is two to three metres, but there are two plants in each position, suckers of the initial plant. And I have four to five metres between the double rows.-->
+
+<!--I also have a banana circle around an outdoor shower where I only have two metres between individual plants, and they are growing in a haphazard way. And if you have just a single clump of a few banana plants you can put them even closer together.-->
+
+<!--Keep your banana plants moist but not too wet in the early days, or they may rot. (They don't have leaves yet to evaporate water, so they don't need much.)-->
+
+<!--Maintaining your banana patch-->
+<!--The most common cause of death for bananas is lack of water. The most common cause for not getting fruit is starvation. Banana plants blow over in strong winds. Protect them and feed them and water them and all will be well. Other than that bananas don't need much maintenance.-->
+
+<!--Just remove any dead leaves and cut down the dead plants every now and then.-->
+
+<!--You get bigger fruit if you remove all unwanted suckers, only keeping the best one (two for very healthy, vigorous plants).-->
+
+<!--Banana sucker with spear shaped leaves-->
+<!--The best suckers are the ones with the small, spear shaped leaves, NOT the pretty ones with the big round leaves!-->
+
+<!--Why? A sucker that is still fed by the mother plant does not need to do much photosynthesis, so it doesn't need to produce big leaves.-->
+
+<!--And a sucker that is well looked after by the mother plant will produce better fruit and be stronger than one that had to struggle on its own...-->
+
+<!--A mature plantation is pretty much self mulching. Just throw all the leaves and old trunks etc. back under the plants. You can also grow other plants in the understory to produce more mulch. (I use cassava, sweet potato and crotolaria).-->
+
+<!--You just need to sprinkle on some fertiliser every now and then, to replace what you took out of the system when you took the bananas. Keep the fertiliser close to the trunk as bananas don't have a big root system.-->
+
+<!--"-->
+            <!--android:textSize="20dp"-->
+            <!--android:textStyle="italic" />-->
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:autoLink="all"
+            android:textColor="#000000"
+            android:text="www.tropicalpermaculture.com/growing-bananas.html"
+
+            android:id="@+id/link"
+
+
+            />
+
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>
